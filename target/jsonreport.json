@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3796422542,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "District Camera Login Test",
+        "description": "",
+        "id": "district-camera-tests;district-camera-login-test",
+        "after": [
+          {
+            "result": {
+              "duration": 1237389223,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7949030907,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The user navigates to URL",
+            "match": {
+              "location": "ExcelImportTest.the_user_navigates_to_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6722485927,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "The user clicks -Used Gear- tab",
+            "match": {
+              "location": "ExcelImportTest.the_user_clicks_Used_Gear_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13832933500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The user captures all the data and throws into new created Excel sheet each time",
+            "match": {
+              "location": "ExcelImportTest.the_user_captures_all_the_data_and_throws_into_new_created_Excel_sheet_each_time()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "District Camera Tests",
+    "description": "",
+    "id": "district-camera-tests",
+    "keyword": "Feature",
+    "uri": "ExcelImportTest.feature"
+  }
+]
